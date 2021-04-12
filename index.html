@@ -10,14 +10,23 @@
         </title>
     </head>
     <body>
+        <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="leftMenu">
+            <button onclick="closeLeftMenu()" class="w3-bar-item w3-button w3-large">Close &times;</button>
+            <a href="#" class="w3-bar-item w3-button">HOME</a>
+            <a href="#" class="w3-bar-item w3-button">WOMEN</a>
+            <a href="#" class="w3-bar-item w3-button">MEN</a>
+            <a href="#" class="w3-bar-item w3-button">WATCHES</a>
+            <a href="#" class="w3-bar-item w3-button">SUNGLASSES</a>
+            <a href="#" class="w3-bar-item w3-button">HAIR GEL</a>
+          </div>
         <div class='header'>
             <div class='left-header'>
-                <i class="fas fa-bars" ></i>
+                <i class="fas fa-bars w3-button w3-xlarge w3-left " onclick="openLeftMenu()" ></i>
                 <span>     MICHAEL KORS </span> 
             </div>
             <div class='right-header'>
                 <i class="fa fa-shopping-bag" aria-hidden="true"></i>
-                <i class="fa fa-search" aria-hidden="true"></i>
+                <i class="fa fa-search" aria-hidden="true" style="i hover:color: blue;"></i>
             </div>
         </div>
         <div class="display-watch">
@@ -144,10 +153,10 @@ Chennai<br/>
 
             </div>
 <div class="social">
-    <i class="fab fa-instagram"></i> 
-    <i class="fab fa-facebook-f"></i>
-    <i class="fab fa-twitter"></i>
-    <i class="fas fa-envelope"></i>
+    <a href=""><i class="fab fa-instagram"></i> </a>
+    <a href=""><i class="fab fa-facebook-f"></i></a>
+    <a href=""><i class="fab fa-twitter"></i></a>
+    <a href=""><i class="fas fa-envelope"></i></a>
 
 </div>
 
@@ -162,6 +171,14 @@ Chennai<br/>
 
 
         <script>
+            function openLeftMenu() {
+  document.getElementById("leftMenu").style.display = "block";
+}
+
+function closeLeftMenu() {
+  document.getElementById("leftMenu").style.display = "none";
+}
+
             function currentDiv(n) {
               showDivs(slideIndex = n);
             }
