@@ -1,0 +1,263 @@
+.header{
+    width: 100%;
+    height: 5vh;
+}
+.left-header{
+float: left;
+    width: 85%;
+    padding-left: 2vw;
+}
+.right-header{
+    float:right;
+    width: 15%;
+    
+}
+.fa-bars{
+    font-size:3vh;
+}
+.left-header span{
+    font-size: 3vh;
+    color: black;
+    padding-left: 1vw;
+}
+.fa-search{
+    padding-left: 3vw;
+}
+.display-watch{
+    height: 100vh;
+    background-color: rgba(225, 233, 233, 0.479);
+    width: 100%;
+}
+.specifics{
+    height: 4vh;
+width: 100%;
+padding: 1%;
+padding-bottom: 2%;
+}
+.left-specifics{
+    float: left;
+    width: 75%;
+
+}
+.right-specifics{
+    float: right;
+    width: 25%;
+
+}
+.left-specifics  button{
+    /* padding: 1vw 1.5vh 1vw 1vh; */
+    
+    background-color: rgb(255, 253, 253);
+    text-align: center;
+    display: inline-block;
+    color: rgb(71, 68, 68);
+    border-radius: 50px;
+    border-color:  rgb(184, 179, 179);
+    height: 3vh;
+    font-size: 2vh;
+}
+.right-specifics button{
+
+    background-color: rgb(255, 253, 253);
+    text-align: center;
+    display: inline-block;
+    color: rgb(71, 68, 68);
+    border-radius: 50px;
+    border-color:  rgb(184, 179, 179);
+    height: 3vh;
+    font-size: 2vh;
+justify-content: center;
+}
+.watch{
+width: 100%;
+height: 100%;
+}
+.left-watch{
+float: left;
+    width: 50%;
+    height: 76vh;
+}
+.right-watch{
+    float: right;
+    width: 50%;;
+    height: 76vh;
+}
+.w3-content1{
+    
+    align-items: center;
+    width: 35vw;
+    height: 66vh;
+    padding: 5%;
+}
+.mySlides{
+    width: 25vw;
+    height: 58vh;
+}
+.right-watch span{
+    font-size: 2vh;
+    color:black;
+    font-family: bold;
+    /* font-family: cursive; */
+}
+.right-watch p2{
+    font-size: 2vh;
+    color: rgb(185, 178, 178);
+}
+.right-watch span1{
+    font-size: 2vh;
+    color: rgb(75, 73, 73);
+}
+/* .customise{
+    padding: 5%;
+} */
+.customise .color{
+    height: 4vh;
+    width: 4vh;
+    border-radius: 50%;
+    background-color: #FF9933;
+    cursor: pointer;
+}
+span2{
+    padding: 3vw;
+}
+.qty{
+    margin-left: 9vw;
+    padding-right: 2vw;
+}
+.color{
+    margin-left: 3vw;
+}
+/* #qty{
+    padding-left: 5vw;
+} */
+.bag{
+   padding-left: 3vw;
+   padding-top: 4vh;
+}
+.right-watch .wishlist{
+    height: 8vh;
+    width: 15vw;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    
+    
+}
+
+.right-watch .button{
+    height: 8vh;
+    width: 15vw;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    
+}
+.like .p{
+    text-align: center;
+    justify-content: center;
+}
+.suggestions{
+    width: 100%;
+    height: 70vh;
+    text-align: center;
+    /* background-color: gold; */
+}
+.suggest{
+    max-width: 100%;
+    height: 40vh;
+    padding: 5%;
+    
+   
+}
+.s1{
+    float: left;
+    width: 25%;
+    height: 40vh;
+    
+}
+.s2{
+    float: left;
+    width: 25%;
+    height: 40vh;
+    /* margin-left: 1vw; */
+}
+.s3{
+    float: left;
+    width: 25%;
+    height: 40vh;
+    
+}
+.s4{
+    float: left;
+    width: 25%;
+    height: 40vh;
+    
+}
+.add{
+    height: 80vh;
+    width: 100%;
+}
+.sunglasses{
+    float: left;
+    width: 50%;
+    position: relative;
+}
+.gel{
+    float: left;
+    width: 50%;
+    position: relative;
+}
+.text1{
+    position: absolute;
+    font-size: 2vw;
+    text-align:center;
+    left: 0;
+    padding-top: 7vh;
+    padding-left: 4vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, bold;
+}
+.text2{
+    position: absolute;
+    font-size: 2vw;
+    text-align:center;
+    left: 0;
+    padding-top: 7vh;
+    padding-left: 60vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, bold;
+}
+
+.button1{
+    height: 10vh;
+    width: 10vw;
+    font-size: 3vh;
+    background-color: white;
+    color: black;
+    border-style: dotted;
+    cursor: pointer;
+    text-decoration: none;
+}
+.footer{
+    height: 60vh;
+    width: 100%;
+    padding-left: 10vw;
+    background-color: cornsilk;
+    display: flex;
+}
+.f1{
+    margin-left: 4vw;
+}
+.social{
+    padding: 10%;
+    font-size: 6vh;
+    display: flex;
+}
+.social i:hover{
+    color: blue;
+}
+.credits{
+    height: 10vh;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
